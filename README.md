@@ -1,4 +1,4 @@
-Урок №3. Ввод-вывод и базовые переменные. <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%203%20Input%20Output%20and%20basic%20variables/lesson3-task1.py">Задание №1</a> <br><br>
+Урок №3. Ввод-вывод и базовые переменные. <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%203%20Input%20Output%20and%20basic%20variables/lesson3-task1.py">Задание №1</a> <br>
 Урок №3. Ввод-вывод и базовые переменные. <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%203%20Input%20Output%20and%20basic%20variables/lesson3-task2.py">Задание №2</a> <br><br>
-Урок №4. float, int и арифметические операции <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%204%20Float%20int%20and%20arithmetic%20operations/lesson4-task1.py">Задание №1</a> <br><br>
+Урок №4. float, int и арифметические операции <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%204%20Float%20int%20and%20arithmetic%20operations/lesson4-task1.py">Задание №1</a> <br>
 Урок №4. float, int и арифметические операции <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%204%20Float%20int%20and%20arithmetic%20operations/lesson4-task2.py">Задание №2</a> <br><br>
