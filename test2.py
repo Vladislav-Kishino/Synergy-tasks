@@ -1,11 +1,11 @@
 #Задание №2
 # Запрашиваем этапы развития человека
 print("Введите этапы развития человека по порядку:")
-stage1 = input("Первый этап: ")
-stage2 = input("Второй этап: ")
-stage3 = input("Третий этап: ")
-stage4 = input("Четвертый этап: ")
-stage5 = input("Пятый этап: ")
+Australopithecus = input("Первый этап: ")
+Homo_habilis = input("Второй этап: ")
+Homo_erectus = input("Третий этап: ")
+Homo_sapiens_neanderthalensis = input("Четвертый этап: ")
+Homo_sapiens_sapiens = input("Пятый этап: ")
 
-# Выводим этапы с разделителем =>
-print(stage1, stage2, stage3, stage4, stage5, sep=' => ')
+# Выводим этапы развития человека с разделителем "=>"
+print(Australopithecus, Homo_habilis, Homo_erectus, Homo_sapiens_neanderthalensis, Homo_sapiens_sapiens, sep=' => ')
