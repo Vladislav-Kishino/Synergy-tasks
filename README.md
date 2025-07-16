@@ -5,9 +5,9 @@
 Урок №5. Логические и условные операторы <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%205%20Logical%20and%20conditional%20operators/lesson5-task1.py">Задание №1</a> <br>
 Урок №5. Логические и условные операторы <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%205%20Logical%20and%20conditional%20operators/lesson5-task2.py">Задание №2</a> <br>
 Урок №5. Логические и условные операторы <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%205%20Logical%20and%20conditional%20operators/lesson5-task3.py">Задание №3</a> <br><br>
-Урок №6. Циклы while и for Задание №1 <br>
-Урок №6. Циклы while и for Задание №2 <br>
-Урок №6. Циклы while и for Задание №3 <br><br>
+Урок №6. Циклы while и for <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%206%20Cycles%20while%20and%20for/lesson6-task1.py">Задание №1</a> <br>
+Урок №6. Циклы while и for <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%206%20Cycles%20while%20and%20for/lesson6-task2.py">Задание №2</a> <br>
+Урок №6. Циклы while и for <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%206%20Cycles%20while%20and%20for/lesson6-task3.py">Задание №3</a> <br><br>
 Урок №7. Строки Задание №1 <br>
 Урок №7. Строки Задание №2 <br><br>
 Урок №8. Списки Задание №1 <br>
