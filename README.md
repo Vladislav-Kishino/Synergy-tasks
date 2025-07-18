@@ -8,21 +8,21 @@
 Урок №6. Циклы while и for <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%206%20Cycles%20while%20and%20for/lesson6-task1.py">Задание №1</a> <br>
 Урок №6. Циклы while и for <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%206%20Cycles%20while%20and%20for/lesson6-task2.py">Задание №2</a> <br>
 Урок №6. Циклы while и for <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%206%20Cycles%20while%20and%20for/lesson6-task3.py">Задание №3</a> <br><br>
-Урок №7. Строки Задание №1 <br>
-Урок №7. Строки Задание №2 <br><br>
-Урок №8. Списки Задание №1 <br>
-Урок №8. Списки Задание №2 <br>
-Урок №8. Списки Задание №3 <br><br>
-Урок №9. Множества Задание №1 <br>
-Урок №9. Множества Задание №2 <br>
-Урок №9. Множества Задание №3 <br><br>
-Урок №10. Словари Задание №1 <br>
-Урок №10. Словари Задание №2 <br><br>
-Урок №11. Функции Задание №1 <br>
-Урок №11. Функции Задание №2 <br><br>
-Урок №13. Двумерные списки Задание №1 <br><br>
-Урок №14. Рекурсия Задание №1 <br><br>
-Урок №15. ООП Задание №1 <br>
-Урок №15. ООП Задание №2 <br><br>
-Урок №16. Классы и объекты Задание №1 <br>
-Урок №16. Классы и объекты Задание №2 <br><br>
+Урок №7. Строки <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%207%20Strings/lesson7-task1.py">Задание №1</a> <br>
+Урок №7. Строки <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%207%20Strings/lesson7-task2.py">Задание №2</a> <br><br>
+Урок №8. Списки <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%208%20Lists/lesson8-task1.py">Задание №1</a> <br>
+Урок №8. Списки <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%208%20Lists/lesson8-task2.py">Задание №2</a> <br>
+Урок №8. Списки <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%208%20Lists/lesson8-task3.py">Задание №3</a> <br><br>
+Урок №9. Множества <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%209%20Sets/lesson9-task1.py">Задание №1</a> <br>
+Урок №9. Множества <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%209%20Sets/lesson9-task2.py">Задание №2</a> <br>
+Урок №9. Множества <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%209%20Sets/lesson9-task3.py">Задание №3</a> <br><br>
+Урок №10. Словари <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%2010%20Dictionaries/lesson10-task1.py">Задание №1</a> <br>
+Урок №10. Словари <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%2010%20Dictionaries/lesson10-task2.py">Задание №2</a> <br><br>
+Урок №11. Функции <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%2011%20Functions/lesson11-task1.py">Задание №1</a> <br>
+Урок №11. Функции <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%2011%20Functions/lesson11-task2.py">Задание №2</a> <br><br>
+Урок №13. Двумерные списки <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%2013%20Two-dimensional%20lists/lesson13-task1.py">Задание №1</a> <br><br>
+Урок №14. Рекурсия <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%2014%20Recursion/lesson14-task1.py">Задание №1</a> <br><br>
+Урок №15. ООП <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%2015%20OOP/lesson15-task1.py">Задание №1</a> <br>
+Урок №15. ООП <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%2015%20OOP/lesson15-task2.py">Задание №2</a> <br><br>
+Урок №16. Классы и объекты <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%2016%20Classes%20and%20Objects/lesson16-task1.py">Задание №1</a> <br>
+Урок №16. Классы и объекты <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%2016%20Classes%20and%20Objects/lesson16-task2.py">Задание №2</a> <br><br>
