@@ -26,3 +26,4 @@
 Урок №15. ООП <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%2015%20OOP/lesson15-task2.py">Задание №2</a> <br><br>
 Урок №16. Классы и объекты <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%2016%20Classes%20and%20Objects/lesson16-task1.py">Задание №1</a> <br>
 Урок №16. Классы и объекты <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/blob/main/Lesson%2016%20Classes%20and%20Objects/lesson16-task2.py">Задание №2</a> <br><br>
+Урок №23. Проект создание Игры <a href="https://github.com/Vladislav-Kishino/Synergy-tasks/tree/main/Game-Helicopter">Game-Helicopter</a> <br><br>
