@@ -20,7 +20,7 @@ class Map:
       self.w = w
       self.h = h
       self.cells = [[0 for i in range(w)] for j in range(h)]
-      self.generate_forest(1, 10)
+      self.generate_forest(5, 10)
       self.generate_river(15)
       self.generate_river(10)
       self.generate_upgade_shop()
@@ -37,9 +37,9 @@ class Map:
          for ci in range(self.w):
             cell = self.cells[ri][ci]
             if (clouds.cells[ri][ci] == 1):
-               print("⬜", end="")
+               print("⛅", end="")
             elif (clouds.cells[ri][ci] == 2):
-               print("🟥", end="")
+               print("⚡", end="")
             elif (helico.x == ri and helico.y == ci):
                print("🚁", end="")
             elif (cell >= 0 and cell < len(CELL_TYPES)):
@@ -94,8 +94,9 @@ class Map:
       for i in range(10):
          self.add_fire()
 
-   def process_helicopter(self, helico):
+   def process_helicopter(self, helico, clouds):
       c = self.cells[helico.x][helico.y]
+      d = clouds.cells[helico.x][helico.y]
       if (c == 2):
          helico.tank = helico.mxtank
       if (c == 5 and helico.tank > 0):
@@ -106,6 +107,15 @@ class Map:
          helico.mxtank += 1
          helico.score -= UPGRADE_COST
       if (c == 3 and helico.score >= LIFE_COST):
-         helico.lives += 1
+         helico.lives += 10
          helico.score -= LIFE_COST
-      
+      if (d == 2):
+         helico.lives -= 1
+         if (helico.lives == 0):
+            helico.game_over()
+
+   def export_data(self):
+        return{"cells": self.cells}
+   
+   def import_data(self, data):
+        self.cells = data["cells"] or [[0 for i in range(self.w)] for j in range(self.h)]
