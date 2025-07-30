@@ -1,6 +1,7 @@
 from utils import randbool
 from utils import randcell
 from utils import randcell2
+from helicopter import Helicopter as Helico
 
 # 0 - поле 🟩
 # 1 - дерево 🌲
@@ -11,6 +12,7 @@ from utils import randcell2
 
 CELL_TYPES = "🟩🌲🌊🏥🏪🔥"
 
+FIRE_PENALTY = 20
 TREE_BONUS = 100
 UPGRADE_COST = 5000
 LIFE_COST = 10000
@@ -20,6 +22,7 @@ class Map:
       self.w = w
       self.h = h
       self.cells = [[0 for i in range(w)] for j in range(h)]
+      self.burning_cells = set()
       self.generate_forest(5, 10)
       self.generate_river(15)
       self.generate_river(10)
@@ -85,14 +88,25 @@ class Map:
       cx, cy = c[0], c[1]
       if self.cells[cx][cy] == 1:
          self.cells[cx][cy] = 5
-   def update_fires(self):
-      for ri in range(self.h):
-         for ci in range(self.w):
-            cell = self.cells[ri][ci]
-            if cell == 5:
-               self.cells[ri][ci] = 0
-      for i in range(10):
-         self.add_fire()
+         self.burning_cells.add((cx, cy))
+
+   def update_fires(self, helico=None):
+        extinguished = set()
+        
+        for ri in range(self.h):
+            for ci in range(self.w):
+                if self.cells[ri][ci] == 5:
+                    if helico is None or not (helico.x == ri and helico.y == ci):
+                        self.cells[ri][ci] = 0
+                        extinguished.add((ri, ci))        
+        if helico is not None:
+         for cell in extinguished:
+            if cell in self.burning_cells:
+                helico.score = max(0, helico.score - FIRE_PENALTY)
+                self.burning_cells.remove(cell)
+    
+         for i in range(10):
+            self.add_fire()
 
    def process_helicopter(self, helico, clouds):
       c = self.cells[helico.x][helico.y]
@@ -103,6 +117,8 @@ class Map:
          helico.tank -= 1
          helico.score += TREE_BONUS
          self.cells[helico.x][helico.y] = 1
+      if (helico.x, helico.y) in self.burning_cells:
+                self.burning_cells.remove((helico.x, helico.y))
       if (c == 4 and helico.score >= UPGRADE_COST):
          helico.mxtank += 1
          helico.score -= UPGRADE_COST
